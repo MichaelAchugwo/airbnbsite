@@ -4,7 +4,7 @@ export default function Experiences() {
   return (
     <div className="experiences">
       <section className="experiences-photo">
-        <img src="./public/images/pictures.png" />
+        <img src="./images/pictures.png" />
       </section>
       <h1>Online Experiences</h1>
       <p>
