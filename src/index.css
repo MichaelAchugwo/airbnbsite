@@ -3,16 +3,35 @@ body {
 }
 h4.logo {
   margin: 0;
-  padding: 25px 0 25px 35px;
   color: #ff5a5f;
-  font-size: 45px;
+  font-size: 35px;
   font-family: "Manrope", sans-serif;
-  display: flex;
   align-items: center;
 }
 nav {
   background: #ffffff;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  position: sticky;
+  top: 0;
+}
+div.loginArea {
+  display: flex;
+  place-items: center;
+}
+div.loginArea img {
+  border-radius: 50%;
+  height: 40px;
+  cursor: pointer;
+}
+a#logOutBtn {
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  padding-left: 10px;
+  color: black;
 }
 .airbnb {
   font-size: 30px;
@@ -47,7 +66,7 @@ div.card {
   width: auto;
   font-size: 12px;
   flex: 0 0 auto;
-  display: flex;          
+  display: flex;
   flex-direction: column;
 }
 section.card-group {
@@ -100,4 +119,33 @@ p.ratings {
 }
 .bold {
   font-weight: 600;
+}
+div.success, div.logout {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+div#loginPage {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  /* background-color: black; */
+}
+div#loginContainer {
+  width: 30%;
+}
+input {
+  border: 1px solid grey !important;
+}
+a.loginPic {
+  padding: 25px 0 25px 35px;
+  color: #ff5a5f;
+  font-family: "Manrope", sans-serif;
+  float: right;
+  font-size: 1.2rem;
 }

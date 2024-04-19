@@ -9,8 +9,7 @@ export default [
         price:136,
         openSpots:0,
     },
-    {
-        
+    {        
         id: 2,
         name:"Learn Wedding Photography",
         img:"/images/wedding-photography.png",
